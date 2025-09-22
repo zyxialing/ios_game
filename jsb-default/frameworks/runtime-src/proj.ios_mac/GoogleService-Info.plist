@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>379069868985-a9p5s83br1ou79mna3dp3i20e39ateum.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.379069868985-a9p5s83br1ou79mna3dp3i20e39ateum</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCsMsb9k2Rc1LCIQO4RVby-teKAeoZdOaA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>379069868985</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>huarong.nekizooklkwdhwqgpy</string>
+	<key>PROJECT_ID</key>
+	<string>hotfiregame-c76f7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hotfiregame-c76f7.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:379069868985:ios:f7c6959364a878f46aa468</string>
+</dict>
+</plist>
