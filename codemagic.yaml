@@ -8,7 +8,7 @@ workflows:
         script: |
           xcode-project build-ipa \
             --project "jsb-default/frameworks/runtime-src/proj.ios_mac/hotfiregame.xcodeproj" \
-            --scheme "hotfiregame" \
+            --scheme "hotfiregame-mobile" \
             --export-options-plist "jsb-default/frameworks/runtime-src/proj.ios_mac/ExportOptions.plist"
     artifacts:
       - build/ios/ipa/*.ipa
