@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- 导出方式：development = 真机测试安装 -->
+  <key>method</key>
+  <string>development</string>
+
+  <!-- 签名方式：手动，配合你上传的证书和描述文件 -->
+  <key>signingStyle</key>
+  <string>manual</string>
+
+  <!-- 不启用 Bitcode，加快编译 -->
+  <key>compileBitcode</key>
+  <false/>
+
+  <!-- 绑定 Bundle ID 和 Provisioning Profile -->
+  <key>provisioningProfiles</key>
+  <dict>
+    <key>com.hot.game.test001</key>
+    <string>Test001_Dev</string>
+  </dict>
+</dict>
+</plist>
