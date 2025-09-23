@@ -7,7 +7,7 @@ workflows:
       - name: Build ipa
         script: |
           xcode-project build-ipa \
-            --project "jsb-default/frameworks/runtime-src/proj.ios_mac/hotfiregame.xcodeproj" \
+            --workspace "jsb-default/frameworks/runtime-src/proj.ios_mac/hotfiregame.xcodeproj" \
             --scheme "hotfiregame"
     artifacts:
       - build/ios/ipa/*.ipa
