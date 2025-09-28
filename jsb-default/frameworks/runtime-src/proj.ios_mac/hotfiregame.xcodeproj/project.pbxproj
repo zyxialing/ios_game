@@ -850,10 +850,12 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = "hotfiregame-mobile.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COMPRESS_PNG_FILES = NO;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = B2FSX7PQ8K;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8VJY274YQX;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -876,8 +878,9 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hot.game.test001;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redspark123.gamealpha;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = hot_dev;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -913,10 +916,12 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = "hotfiregame-mobileRelease.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COMPRESS_PNG_FILES = NO;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = B2FSX7PQ8K;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8VJY274YQX;
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -937,8 +942,9 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hot.game.test001;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redspark123.gamealpha;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = hot_dev;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>379069868985-a9p5s83br1ou79mna3dp3i20e39ateum.apps.googleusercontent.com</string>
+	<string>36124337688-jb8smm9ru3bc4abjb5thu35hr5qi5leo.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.379069868985-a9p5s83br1ou79mna3dp3i20e39ateum</string>
+	<string>com.googleusercontent.apps.36124337688-jb8smm9ru3bc4abjb5thu35hr5qi5leo</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>36124337688-3h3ct0es033qcac424okk0jn191jd4ki.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCsMsb9k2Rc1LCIQO4RVby-teKAeoZdOaA</string>
+	<string>AIzaSyBUfAIZvGePX1zrL3cWBQq-rEDKf55q4So</string>
 	<key>GCM_SENDER_ID</key>
-	<string>379069868985</string>
+	<string>36124337688</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>huarong.nekizooklkwdhwqgpy</string>
+	<string>com.redspark123.gamealpha</string>
 	<key>PROJECT_ID</key>
-	<string>hotfiregame-c76f7</string>
+	<string>hfgame2-71cea</string>
 	<key>STORAGE_BUCKET</key>
-	<string>hotfiregame-c76f7.firebasestorage.app</string>
+	<string>hfgame2-71cea.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:379069868985:ios:f7c6959364a878f46aa468</string>
+	<string>1:36124337688:ios:62a3661287c41a1e6d856d</string>
 </dict>
 </plist>

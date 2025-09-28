@@ -3,12 +3,20 @@ workflows:
     name: iOS Build
     environment:
       xcode: 15.4
+      groups:
+        - default   # 让环境变量生效
     scripts:
       - name: Build ipa
         script: |
           xcode-project build-ipa \
             --project "jsb-default/frameworks/runtime-src/proj.ios_mac/hotfiregame.xcodeproj" \
-            --scheme "hotfiregame-mobile" \
-            --export-options-plist "jsb-default/frameworks/runtime-src/proj.ios_mac/ExportOptions.plist"
+            --scheme "hotfiregame-mobile"
     artifacts:
       - build/ios/ipa/*.ipa
+
+    code_signing:
+      xcode: automatic
+      apple_dev_portal_integration:
+        issuer_id: $APPSTORE_ISSUER_ID
+        key_id: $APPSTORE_KEY_ID
+        private_key: $APPSTORE_PRIVATE_KEY
